@@ -1,4 +1,4 @@
-export class CircleContainer{
+export default class CircleContainer{
         constructor(){
             this.circles = [];
         }

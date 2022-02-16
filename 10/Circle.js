@@ -1,4 +1,4 @@
-export class Circle{
+export default class Circle{
         constructor(x,y){
             this.x = x || 0;
             this.y = y || 0;
@@ -12,7 +12,7 @@ export class Circle{
                 'rgba(251, 164, 246, .5)'
             ]
             this.color = colors[Math.floor(Math.random() * colors.length)];
-            console.log(this.color)
+            // console.log(this.color)
         }
 
         get getMoveY(){
@@ -36,9 +36,9 @@ export class Circle{
         }
 
         up = () => {
-            if(this.y < -100){
-                this.y = winH;
-                this.x = Math.random() * winW;
+            if(this.y < -50){
+                this.y = window.innerHeight + 50;
+                this.x = Math.random() * window.innerWidth;
             }
             this.y = this.y + this.moveY;
         }

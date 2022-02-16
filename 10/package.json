@@ -1,3 +1,7 @@
 {
-    "type": "module"
+    "type": "module",
+    "devDependencies": {
+        "gulp-rename": "^2.0.0",
+        "gulp-uglify": "^3.0.2"
+    }
 }
