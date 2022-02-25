@@ -8,7 +8,9 @@ var ctx = null;
 var winW = 0;
 var winH = 0;
 var circleContainer = null;
-
+var circleX;
+var circleY;
+var circle;
 const raf = window.requestAnimationFrame ||
 window.webkitRequestAnimationFrame ||
 window.mozRequestAnimationFrame ||
@@ -20,6 +22,7 @@ function(callback) {
 
 function loop() {
     ctx.clearRect(0, 0, winW, winH);
+    ctx.globalCompositeOperation = "lighter";
     circleContainer.each((circle) => {
     // console.log('AAA')
         circle.move();
@@ -45,6 +48,11 @@ function init(){
 
         canvas.width = winW;
         canvas.height = winH;
+
+        // for(let i = 0, l = circleMax; i < l; i++){
+        //     circleX = (Math.random() * 100) / 100 * winW;
+        //     circleMax[i].setPosX = circleX;
+        // }
     });
     window.dispatchEvent(resizeEvent);
 
@@ -55,8 +63,10 @@ function init(){
     for(let i = 0, l = circleMax; i < l; i++){
         setTimeout(function(){
             let circleX = Math.random() * winW;
-            let circleY = winH;
-            let circle = new Circle(circleX, circleY, canvas);
+            // let circleX = winW / (Math.random() * winW);
+            // circleX = (Math.random() * 100) / 100 * winW;
+            circleY = winH;
+            circle = new Circle(circleX, circleY, canvas);
             // let moveY = -(Math.random() * 2);
             // circle.setMoveY = moveY;
             circleContainer.add(circle);

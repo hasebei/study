@@ -15,6 +15,22 @@ export default class Circle{
             // console.log(this.color)
         }
 
+        get getPosX(){
+            return this.x;
+        }
+
+        set setPosX(x){
+            this.x = x
+        }
+
+        get getPosY(){
+            return this.y;
+        }
+
+        set setPosY(y){
+            this.y = y;
+        }
+
         get getMoveY(){
             return this.moveY;
         }
@@ -37,19 +53,24 @@ export default class Circle{
 
         up = () => {
             if(this.y < -50){
-                this.y = window.innerHeight + 50;
-                this.x = Math.random() * window.innerWidth;
+                this.reset();
             }
             this.y = this.y + this.moveY;
         }
 
+        reset = () => {
+            this.y = window.innerHeight + 50;
+            this.x = Math.random() * window.innerWidth;
+            this.moveY = -(Math.random() * .5 + .5);
+        }
+
         draw = (ctx) => {
             ctx.save();
-            ctx.translate(this.x, this.y);
+            // ctx.translate(this.x, this.y);
             ctx.beginPath();
             // ctx.fillStyle = 'rgba(255, 0, 0, 1)';
             ctx.fillStyle = this.color;
-            ctx.arc(0, 0, this.r, 0, 360 * Math.PI / 180, true);
+            ctx.arc(this.x, this.y, this.r, 0, 360 * Math.PI / 180, true);
             ctx.fill();
             ctx.restore();
         }
