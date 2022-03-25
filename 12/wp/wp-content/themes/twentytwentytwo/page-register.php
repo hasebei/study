@@ -7,4 +7,4 @@ Template Name: page-user-regist
 echo do_shortcode('[wpmem_form register]');
 ?>
 
-<?php echo do_shortcode('[wpmem_loginout]ログインはこちら[/wpmem_loginout]');?>
+<a href="/12/login/">ログインはこちら</a>
