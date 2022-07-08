@@ -135,11 +135,11 @@ $(function(){
         // console.log(winT)
         // console.log((endPointC - heightC) > winT)
         if(startPointC < winT){
-            var plus = (winT - startPointC) / 100;
-            console.log((winT - startPointC) / 100)
+            var plus = (winT - startPointC);
+            console.log((winT - startPointC))
             console.log("-----------------------------")
             boxCleft.css({
-                width: (boxCleft.width() + plus) + '%'
+                width: (boxCleft.width() + plus)
             });
         }
         if(startPointD < winT){
