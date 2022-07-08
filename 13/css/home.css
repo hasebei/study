@@ -1,3 +1,3 @@
-.blocks{max-width:1200px;margin:0 auto;padding-top:3000px}.block{margin-bottom:50px}.block:last-child{margin-bottom:0}#c{margin-top:2000px}#e{position:fixed;top:50%;left:50%;transform:translate(-50%, -50%)}#e div{display:flex}#e p{width:100%}
+.blocks{max-width:1200px;margin:0 auto}.block{background:#ffffff;margin-bottom:50px}.block:last-child{margin-bottom:0}#c{position:sticky;top:0;left:0}#c>div{display:flex}#c .left,#c .right{height:300px;width:50%}#c .left{background:#ff00ff}#c .right{background:#00ff00}#d{margin-top:200vh;position:sticky}#e{position:sticky}
 
 /*# sourceMappingURL=../map/home.css.map */

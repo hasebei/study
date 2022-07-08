@@ -45,7 +45,8 @@
         <section id="c" class="block">
             <h2>CCCCCCCCCCCCCC</h2>
             <div>
-                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC<br>
+                <div class="left">LLLLLLLLL</div><!-- /.left -->
+                <div class="right">RRRRRRRR</div><!-- /.right -->
             </div>
         </section>
         <section id="d" class="block">
@@ -95,26 +96,83 @@
 
 <script src="./js/jquery.min.js"></script>
 <script>
+
+window.scrollTo({
+  top: 0,
+});
+
+const RESIZE_EVENT = new Event('resize');
+
+var heightC = 0;
+var startPointC = 0;
+var endPointC = 0;
+var selectorC, selectorD;
+
+window.addEventListener('resize', function(e){
+    selectorC = document.querySelector('#c');
+    startPointC = selectorC.offsetTop;
+    heightC = selectorC.clientHeight;
+
+    selectorD = document.querySelector('#d');
+    startPointD = selectorD.offsetTop;
+    heightD = selectorD.clientHeight;
+
+    endPointC = startPointD - heightC;
+});
+
+window.dispatchEvent(RESIZE_EVENT);
+
+
 $(function(){
-    let bY = 0;
-    $(window).on('scroll', function(){
+    window.addEventListener('scroll', function(){
         let win = $(this);
         let winT = win.scrollTop();
-        let box = $('#e');
-        console.log(box.offset().top)
-        if(1855 < winT){
-            bY = box.offset().top + (box.height() / 2);
-            box.css({
-                'position': 'absolute',
-                'top': bY
-            });
-        }else{
-            bY = '50%';
-            box.css({
-                'position': 'fixed',
-                'top': bY
+        let boxC = $('#c');
+        let boxD = $('#d');
+
+        let boxCleft = $('.left', boxC);
+        // console.log(endPointC)
+        // console.log(winT)
+        // console.log((endPointC - heightC) > winT)
+        if(startPointC < winT){
+            var plus = (winT - startPointC) / 100;
+            console.log((winT - startPointC) / 100)
+            console.log("-----------------------------")
+            boxCleft.css({
+                width: (boxCleft.width() + plus) + '%'
             });
         }
+        if(startPointD < winT){
+            boxD.css({
+                'position': 'sticky',
+                'top': 0
+            });
+        }
+    });
+    $(window).on('scroll', function(){
+        // let win = $(this);
+        // let winT = win.scrollTop();
+        // let boxC = $('#c');
+        // let boxD = $('#d');
+
+        // let boxCleft = $('.left', boxC);
+        // // console.log(endPointC)
+        // // console.log(winT)
+        // // console.log((endPointC - heightC) > winT)
+        // if(startPointC < winT){
+        //     console.log(winT - startPointC)
+        //     var plus = winT - startPointC;
+        //     console.log("-----------------------------")
+        //     boxCleft.css({
+        //         width: (boxCleft.width() + plus)
+        //     });
+        // }
+        // if(startPointD < winT){
+        //     boxD.css({
+        //         'position': 'sticky',
+        //         'top': 0
+        //     });
+        // }
     }).trigger('scroll');
 });
 </script>
