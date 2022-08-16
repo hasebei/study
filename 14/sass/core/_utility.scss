@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@mixin box-sizing($val){
+	-webkit-box-sizing: $val;
+	-moz-box-sizing: $val;
+	box-sizing: $val;
+}
+
+@mixin border-radius($val){
+	-webkit-border-radius: $val;
+	-moz-border-radius: $val;
+	border-radius: $val;
+}
+
+@mixin holder-color($color){
+	&::placeholder {
+		color: $color;
+	}
+	
+	/* IE */
+	&::-ms-input-placeholder {
+		color: $color;
+	}
+	
+	/* Edge */
+	&::-ms-input-placeholder {
+		color: $color;
+	}
+}
+@mixin text-hidden{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin clearfix-selector{
+	&:after{
+		content: "";
+		display: table;
+		clear: both;
+		font-size: 0;
+		height: 0;
+		visibility: hidden;
+		line-height: 0;
+	}
+}
+
+@mixin opacity($val, $important: false){
+	@if($important){
+		opacity: $val !important;
+		filter: alpha(opacity = ($val * 100)) !important;
+	}@else{
+		opacity: $val;
+		filter: alpha(opacity = ($val * 100));
+	}
+}

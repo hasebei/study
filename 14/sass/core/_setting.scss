@@ -1,0 +1,17 @@
+@charset "UTF-8";
+// site property
+$site-color01: #d1c6ff;
+$site-color02: #582801;
+$font-color01: #582801;
+$font-color02: #d82b2b;
+$link-color: #000000;
+$btn-size01: 28.8%;
+$site-width: 1500px;
+
+// image path
+$img-path: '/images';
+
+// media queries - break point
+$media-sp: 'min-width: 640px';
+$media-tb: 'min-width: 768px';
+$media-pc: 'min-width: 1000px';

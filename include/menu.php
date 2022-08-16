@@ -12,4 +12,5 @@
     <li><a href="/11/">パーティクル</a></li>
     <li><a href="/12/">WP会員登録</a></li>
     <li><a href="/13/">ページ内固定</a></li>
+    <li><a href="/14/">SPLASH</a></li>
 </ul>
