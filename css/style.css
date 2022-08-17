@@ -124,10 +124,18 @@ html{
     line-height: 1.5;
 }
 
+article{
+    padding-top: 100px;
+}
+
 .menus{
+    background: #ffffff;
     display: flex;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 10;
 }
 

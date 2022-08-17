@@ -2,12 +2,15 @@
 
 @import 'core';
 #splashWrapper{
+    overflow: hidden;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
     width: 100%;
     height: 100%;
     background: #ff00ff;
+    transform: translate(-50%, 0);
+    transition: width linear .5s 0s;
 }
 
 #splash{
