@@ -43,7 +43,6 @@
             </div>
         </section>
         <section id="c" class="block">
-            <h2>CCCCCCCCCCCCCC</h2>
             <div>
                 <div class="left">LLLLLLLLL</div><!-- /.left -->
                 <div class="right">RRRRRRRR</div><!-- /.right -->
@@ -129,14 +128,17 @@ $(function(){
         let winT = win.scrollTop();
         let boxC = $('#c');
         let boxD = $('#d');
+        let boxCwidth = boxC.width();
 
         let boxCleft = $('.left', boxC);
         // console.log(endPointC)
         // console.log(winT)
         // console.log((endPointC - heightC) > winT)
+        // console.log((boxCwidth / 2))
         if(startPointC < winT){
-            var plus = (winT - startPointC);
-            console.log((winT - startPointC))
+            var plus = winT - startPointC < 50 ? 0 : (winT - startPointC);
+            // console.log((boxCwidth / 2 + plus))
+            console.log((plus))
             console.log("-----------------------------")
             boxCleft.css({
                 width: (boxCleft.width() + plus)
