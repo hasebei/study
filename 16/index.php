@@ -22,7 +22,7 @@ define('GET_FIELD', 'caption,media_url,thumbnail_url,permalink,like_count,commen
 /***********
 
 ***********/
-define('MEDIA_LIMIT', '2');
+define('MEDIA_LIMIT', '9');
 
 /***********
 
@@ -89,9 +89,12 @@ try{
         $media_url  = $val -> media_url;
         $media_type = $val -> media_type;
         $permalink  = $val -> permalink;
-        if($media_type == 'IMAGE'){
-        ?>
+        if($media_type == 'IMAGE'){ 
+?>
         <li><img src="<?php echo $media_url; ?>" alt=""></li>
+<?php
+        }else{ ?>
+        <li><img src="" alt=""></li>
 <?php
         }
     } ?>
