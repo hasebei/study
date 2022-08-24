@@ -1,7 +1,6 @@
 <?php
 
-
-var_dump(!empty($_SERVER['HTTPS']));
+// var_dump(!empty($_SERVER['HTTPS']));
 $to = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 // header("Location: https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 
@@ -16,10 +15,12 @@ $to = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     <script>
         setTimeout(() => {
             location.href = "<?php echo $to; ?>";
-        }, 5000);
+        }, 10000);
     </script>
 </head>
 <body>
-    
+    URLが変更され、http から https になりました。<br>
+    自動で転送するようになっておりますが、ブックマーク等に保存されている方は、新しいURLをご登録ください。<br>
+    ページは10秒後に転送されますが転送されない方は<a href="<?php echo $to; ?>">新しいURLへ</a>をクリックください。
 </body>
 </html>

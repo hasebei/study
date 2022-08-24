@@ -18,6 +18,8 @@
 </head>
 <body>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/include/menu.php'; ?>
+<article>
 <span class="rainbow_text">TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</span><!-- /.rainbow_text -->
+</article>
 </body>
 </html>

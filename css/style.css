@@ -131,6 +131,7 @@ article{
 .menus{
     background: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     padding: 10px 0;
     position: fixed;
     top: 0;

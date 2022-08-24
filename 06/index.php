@@ -25,13 +25,8 @@
 <body>
 <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 480 60.24" style="enable-background:new 0 0 480 60.24;" xml:space="preserve">
-<style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;fill:none;stroke:#E60012;stroke-width:10;stroke-miterlimit:10;}
-	.st2{display:inline;fill:none;stroke:#E83818;stroke-width:10;stroke-miterlimit:10;}
-</style>
 <g>
-	<path class="t1" d="M18.66,5.82c0.66,0,5.28,3.3,6.06,4.44c0.36,0.6,0.54,2.7,0.54,6.24c0,7.2-0.42,7.14,5.64,3.84
+	<path d="M18.66,5.82c0.66,0,5.28,3.3,6.06,4.44c0.36,0.6,0.54,2.7,0.54,6.24c0,7.2-0.42,7.14,5.64,3.84
 		c7.08-3.9,8.64-4.8,8.64-5.22c0-1.32,1.5-3.54,2.58-3.48c2.28,0,5.28,2.76,5.28,4.92c0,0.78-1.08,1.38-3.24,1.92
 		c-4.2,0.96-17.58,7.62-18.24,8.58c-0.84,1.38-4.38,3.48-3,9.6c0.54,2.22,3.18,4.68,7.38,4.8c5.64,0.12,7.2,0,8.22-0.3
 		c1.02-0.42,1.68-0.54,2.04-0.54c0.72,0,3.3,1.26,3.54,1.86c0.06,0.6-1.44,1.92-3.06,1.92c-1.8,0.12-13.08-0.66-15.96-0.72

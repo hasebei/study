@@ -14,4 +14,5 @@
     <li><a href="/13/">ページ内固定</a></li>
     <li><a href="/14/">SPLASH</a></li>
     <li><a href="/15/">インスタ埋め込み</a></li>
+    <li><a href="/16/">リダイレクト</a></li>
 </ul>
