@@ -1,0 +1,17 @@
+.vertical-text{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    animation: slideInfinite 2s 0s linear infinite;
+}
+
+@keyframes slideInfinite{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(500px);
+    }
+}

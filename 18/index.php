@@ -1,11 +1,3 @@
-<?php
-
-
-var_dump(!empty($_SERVER['HTTPS']));
-$to = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-// header("Location: https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
-
-?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -13,13 +5,14 @@ $to = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        setTimeout(() => {
-            location.href = "<?php echo $to; ?>";
-        }, 5000);
-    </script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/page.css">
 </head>
 <body>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/include/menu.php'; ?>
+
+<p class="vertical-text">ともにかい シェーン</p>
+<p class="vertical-text">TOMONIKAISHANE</p>
+
 </body>
 </html>
