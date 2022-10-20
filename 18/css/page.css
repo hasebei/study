@@ -1,17 +1,42 @@
-.vertical-text{
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
+.abc{
+    background: url(../bg.png) repeat-y 0 0;
+    margin-top: 100px;
+    height: 500px;
+    overflow: hidden;
     animation: slideInfinite 2s 0s linear infinite;
+}
+
+.dfg{
+    background: url(../curriculum.jpg) no-repeat 50% 50%;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.dfg span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 1em;
+    width: 100%;
+    text-align: center;
+    color: #00FF00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h{
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 @keyframes slideInfinite{
     0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(100px);
+        background-position: 0 0;
     }
     100%{
-        transform: translateY(500px);
+        background-position: 0 81px;
     }
 }

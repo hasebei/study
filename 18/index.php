@@ -11,8 +11,17 @@
 <body>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/include/menu.php'; ?>
 
-<p class="vertical-text">ともにかい シェーン</p>
-<p class="vertical-text">TOMONIKAISHANE</p>
+<div class="abc"><!-- /.abc --></div>
+
+<div class="dfg"><span>コンテンツ</span></div>
+
+<div class="h">AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br></div><!-- /.h -->
+
+<div class="i">
+    iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>
+</div><!-- /.i -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/page.js"></script>
 
 </body>
 </html>
