@@ -1,6 +1,7 @@
 var win = $(window);
 var winT = win.scrollTop();
 var dfg = $('.dfg');
+var dfgT = $('.dfg').offset().top;;
 var h = $('.h');
 var hT = $('.h').offset().top;
 var rad = 0;
@@ -8,7 +9,7 @@ var angle = 0;
 
 let scrollEvent = () => {
     win.on('scroll', () => {
-        angle = angle + 2;
+        angle = angle + .2;
         let winT = win.scrollTop();
         bgFixByScroll(winT);
         objRotate(winT);
@@ -16,6 +17,7 @@ let scrollEvent = () => {
 }
 
 let bgFixByScroll = (winT) => {
+    // let scroll = -(winT - dfgT);
     let scroll = -(winT / 3);
     dfg.css({
         'background-position': '50% ' + scroll + 'px'
