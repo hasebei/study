@@ -32,11 +32,40 @@
     top: 0;
 }
 
+.i{
+    margin-top: 200px;
+}
+
+.j{
+    transform: matrix(10,0,0,1,0,1)
+}
+
+.k{
+    position: relative;
+}
+.k img{
+    -webkit-mask-image: url(../mask.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: left -100% top 0;
+    animation: maskMove 1s linear 2s 1 forwards;
+}
+
 @keyframes slideInfinite{
     0%{
         background-position: 0 0;
     }
     100%{
         background-position: 0 81px;
+    }
+}
+
+@keyframes maskMove{
+    0%{
+        transform: rotate(0deg);
+        -webkit-mask-position: left -1400px top 0;
+    }
+    100%{
+        /* transform: rotate(180deg); */
+        -webkit-mask-position: left 0 top 0;
     }
 }

@@ -4,6 +4,9 @@ var dfg   = $('.dfg');
 var dfgT  = $('.dfg').offset().top;;
 var h     = $('.h');
 var hT    = $('.h').offset().top;
+var hH    = $('.h').outerHeight();
+var i     = $('.i');
+var iT    = $('.i').offset().top;
 var rad   = 0;
 var angle = 0;
 
@@ -13,7 +16,7 @@ let scrollEvent = () => {
         let winT = win.scrollTop();
         bgFixByScroll(winT);
         objRotate(winT);
-    });
+    }).trigger('scroll');
 }
 
 let bgFixByScroll = (winT) => {
@@ -27,8 +30,10 @@ let bgFixByScroll = (winT) => {
 let objRotate = (winT) => {
     // console.log(angle)
     rad = Math.PI / 180 * angle ;
-    console.log(Math.cos(rad) * 100);
-    if (hT < winT){
+    // console.log(Math.cos(rad) * 100);
+    console.log(hT+'-----------'+ winT);
+    // console.log(iT + '-----------' + winT);
+    if (hT < winT && (hT + hH) > winT){
         h.css({
             // transform: 'rotateY(' + ((winT - hT) / 10) + 'deg)'
             transform: 'rotateY(' + ((Math.cos(rad) * 90)) + 'deg)'
@@ -37,7 +42,6 @@ let objRotate = (winT) => {
         h.css({
             transform: 'rotateY(0)'
         });
-        
     }
     // target.css({
     //     ''
