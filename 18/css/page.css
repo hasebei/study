@@ -7,7 +7,7 @@
 }
 
 .dfg{
-    background: url(../curriculum.jpg) no-repeat 50% 50%;
+    background: url(../stage.jpg) no-repeat 50% 100%;
     height: 200px;
     width: 100%;
     position: relative;
@@ -37,7 +37,12 @@
 }
 
 .j{
-    transform: matrix(10,0,0,1,0,1)
+    transform: matrix3d(
+        1,0,0,0,
+        0,1,0,0,
+        0,0,2,0,
+        0,0,0,1
+    )
 }
 
 .k{
@@ -46,8 +51,26 @@
 .k img{
     -webkit-mask-image: url(../mask.png);
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: left -100% top 0;
+    -webkit-mask-position: left -1400px top 0;
     animation: maskMove 1s linear 2s 1 forwards;
+}
+
+.l{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.l .l-1{
+    animation: infiniteScroll 2s infinite linear 1s both;
+    display: flex;
+    white-space: nowrap;
+}
+.l p{
+    margin-left: 100px;
+}
+
+.l:hover .l-1{
+    animation-play-state: paused;
 }
 
 @keyframes slideInfinite{
@@ -67,5 +90,14 @@
     100%{
         /* transform: rotate(180deg); */
         -webkit-mask-position: left 0 top 0;
+    }
+}
+
+@keyframes infiniteScroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
     }
 }
