@@ -123,9 +123,10 @@ window.dispatchEvent(RESIZE_EVENT);
 
 
 $(function(){
-    window.addEventListener('scroll', function(){
-        let win = $(this);
-        let winT = win.scrollTop();
+    let win = window;
+    win.addEventListener('scroll', function(){
+        // let winT = win.scrollTop();
+        let winT = win.scrollY;
         let boxC = $('#c');
         let boxD = $('#d');
         let boxCwidth = boxC.width();
@@ -136,7 +137,8 @@ $(function(){
         // console.log((endPointC - heightC) > winT)
         // console.log((boxCwidth / 2))
         if(startPointC < winT){
-            var plus = winT - startPointC < 50 ? 0 : (winT - startPointC);
+            // var plus = winT - startPointC < 50 ? 0 : (winT - startPointC);
+            var plus = winT - startPointC < 50 ? 0 : ((winT - startPointC) / 5);
             // console.log((boxCwidth / 2 + plus))
             console.log((plus))
             console.log("-----------------------------")
@@ -151,31 +153,7 @@ $(function(){
             });
         }
     });
-    $(window).on('scroll', function(){
-        // let win = $(this);
-        // let winT = win.scrollTop();
-        // let boxC = $('#c');
-        // let boxD = $('#d');
 
-        // let boxCleft = $('.left', boxC);
-        // // console.log(endPointC)
-        // // console.log(winT)
-        // // console.log((endPointC - heightC) > winT)
-        // if(startPointC < winT){
-        //     console.log(winT - startPointC)
-        //     var plus = winT - startPointC;
-        //     console.log("-----------------------------")
-        //     boxCleft.css({
-        //         width: (boxCleft.width() + plus)
-        //     });
-        // }
-        // if(startPointD < winT){
-        //     boxD.css({
-        //         'position': 'sticky',
-        //         'top': 0
-        //     });
-        // }
-    }).trigger('scroll');
 });
 </script>
 </body>

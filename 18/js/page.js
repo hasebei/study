@@ -33,7 +33,7 @@ let objRotate = (winT) => {
     // console.log(Math.cos(rad) * 100);
     console.log(hT+'-----------'+ winT);
     // console.log(iT + '-----------' + winT);
-    if (hT < winT && (hT + hH) > winT){
+    if (hT < winT){
         h.css({
             // transform: 'rotateY(' + ((winT - hT) / 10) + 'deg)'
             transform: 'rotateY(' + ((Math.cos(rad) * 90)) + 'deg)'
