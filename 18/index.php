@@ -52,6 +52,12 @@
     </div><!-- /.l-1 -->
 </div><!-- /.l -->
 
+<div class="m">
+    <p>Text</p>
+    <p>1文字目をCSSで</p>
+    <p>装飾</p>
+</div><!-- /.m -->
+
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

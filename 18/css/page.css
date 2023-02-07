@@ -73,6 +73,15 @@
     animation-play-state: paused;
 }
 
+.m p{
+    margin-top: 20px;
+}
+.m p:first-letter{
+    border-bottom: 2px solid #ff0000;
+    color: #ff0000;
+    display: inline-block;
+    font-size: 25px;
+}
 @keyframes slideInfinite{
     0%{
         background-position: 0 0;
