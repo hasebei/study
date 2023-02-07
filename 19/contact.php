@@ -61,6 +61,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 </style>
 </head>
 <body>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/include/menu.php'; ?>
 <div id="formWrap">
   <h3>お問い合わせ</h3>
   <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
