@@ -48,6 +48,22 @@ let objRotate = (winT) => {
     // })
 }
 
+const itemHover = () => {
+    let target = $('.n__item');
+    target.on('mousemove', function(e){
+        let item = $(this);
+        let rad = Math.PI / 180 * (e.offsetY)
+        let sin = Math.sin(rad) * 20;
+        let cos = Math.cos(rad) * 20;
+        console.log(cos)
+        item.css({ 'transform': 'scale(1.2) rotateY(' + sin +'deg) rotateX(' + cos +'deg)'})
+    });
+    target.on('mouseout', function(e){
+        let item = $(this);
+        item.css({ 'transform': 'rotateY(0deg) rotateX(0deg)'})
+    })
+}
 $(() => {
     scrollEvent();
+    itemHover();
 });

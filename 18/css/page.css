@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 .abc{
     background: url(../bg.png) repeat-y 0 0;
     margin-top: 100px;
@@ -81,6 +84,30 @@
     color: #ff0000;
     display: inline-block;
     font-size: 25px;
+}
+.n{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.n__list{
+    display: flex;
+}
+
+.n__item{
+    transition: transform .2s linear 0s;
+    margin-left: 50px;
+    width: 300px;
+}
+.n__img{
+    overflow: hidden;
+}
+.n__img img{
+    max-width: 300px;
+}
+
+.n__img img:hover{
+
 }
 @keyframes slideInfinite{
     0%{
