@@ -164,6 +164,13 @@
 
 </div><!-- /.n -->
 
+<div class="o">
+    <div class="img"><img src="./images/1.png" alt=""><img src="./images/2.png" alt=""></div><!-- /.img -->
+</div><!-- /.o -->
+
+<div class="p">
+
+</div><!-- /.p -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

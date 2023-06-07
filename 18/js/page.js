@@ -13,7 +13,7 @@ var angle = 0;
 let scrollEvent = () => {
     win.on('scroll', () => {
         angle = angle + 5;
-        let winT = win.scrollTop();
+        winT = win.scrollTop();
         bgFixByScroll(winT);
         objRotate(winT);
     }).trigger('scroll');
@@ -31,7 +31,7 @@ let objRotate = (winT) => {
     // console.log(angle)
     rad = Math.PI / 180 * angle ;
     // console.log(Math.cos(rad) * 100);
-    console.log(hT+'-----------'+ winT);
+    // console.log(hT+'-----------'+ winT);
     // console.log(iT + '-----------' + winT);
     if (hT < winT){
         h.css({
@@ -55,7 +55,7 @@ const itemHover = () => {
         let rad = Math.PI / 180 * (e.offsetY)
         let sin = Math.sin(rad) * 20;
         let cos = Math.cos(rad) * 20;
-        console.log(cos)
+        // console.log(cos)
         item.css({ 'transform': 'scale(1.2) rotateY(' + sin +'deg) rotateX(' + cos +'deg)'})
     });
     target.on('mouseout', function(e){
@@ -63,7 +63,33 @@ const itemHover = () => {
         item.css({ 'transform': 'rotateY(0deg) rotateX(0deg)'})
     })
 }
+
+var ct;
+var rad02 = 0;
+var angle02 = 0;
+const imgClip = () =>{
+    let container = $('.o');
+    let target = $('img:nth-child(2)', container);
+    ct = container.offset().top;
+    let cp = 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)';
+    win.on('scroll', function(e){
+        console.log(winT - ct + 100)
+        target.css({
+            "clip-path": cp
+        });
+        angle02 += winT - ct;
+        rad02 = Math.cos(angle02) * 100;
+        let abs = (winT - ct + 100) / 10;
+        // console.log(abs)
+        // abs = Math.abs(abs)
+        cp = 'polygon(0 ' + abs + '%, 100% ' + abs +'%, 100% 100%, 0% 100%)'
+        if(ct < winT){
+        }
+    });
+}
+
 $(() => {
     scrollEvent();
     itemHover();
+    imgClip();
 });
