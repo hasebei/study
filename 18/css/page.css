@@ -40,6 +40,8 @@ html{
 }
 
 .j{
+    background: #312d2d;
+    color: #ffffff;
     transform: matrix3d(
         1,0,0,0,
         0,1,0,0,
@@ -92,6 +94,7 @@ html{
 }
 .n__list{
     display: flex;
+    height: 350px;
 }
 
 .n__item{
@@ -115,7 +118,7 @@ html{
 }
 .o .img{
     position: sticky;
-    top: 100px;
+    top: 150px;
     left: 100px;
     height: 500px;
     width: 500px;
@@ -128,6 +131,17 @@ html{
 .p{
     height: 500px;
     background: #00FFFF;
+    margin-top: 500px;
+}
+.q{
+    color: #000;
+    font-size: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;
+    z-index: 10;
 }
 @keyframes slideInfinite{
     0%{

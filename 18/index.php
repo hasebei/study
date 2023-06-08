@@ -171,6 +171,9 @@
 <div class="p">
 
 </div><!-- /.p -->
+<!-- <div class="q">
+    STUDY STUDY STUDY STUDY STUDY
+</div>/.q -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

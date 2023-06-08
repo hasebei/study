@@ -52,12 +52,17 @@ const itemHover = () => {
     let target = $('.n__item');
     target.on('mousemove', function(e){
         let item = $(this);
-        let rad = Math.PI / 180 * (e.offsetY)
-        let sin = Math.sin(rad) * 20;
-        let cos = Math.cos(rad) * 20;
-        // console.log(cos)
-        item.css({ 'transform': 'scale(1.2) rotateY(' + sin +'deg) rotateX(' + cos +'deg)'})
+        let centerX = item.width() / 2;
+        let centerY = item.height() / 2;
+        let rotateY = (e.offsetX - centerX) / 10;
+        let rotateX = (e.offsetY - centerY) / 10;
+        console.log(e.offsetY +'------------'+ centerY)
+        console.log(rotateX)
+        item.css({
+            'transform': 'scale(1.1) rotateY(' + rotateY + 'deg) rotateX(' + rotateX +'deg)'}
+        );
     });
+
     target.on('mouseout', function(e){
         let item = $(this);
         item.css({ 'transform': 'rotateY(0deg) rotateX(0deg)'})
@@ -73,19 +78,16 @@ const imgClip = () =>{
     ct = container.offset().top;
     let cp = 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)';
     win.on('scroll', function(e){
-        console.log(winT - ct + 100)
         target.css({
             "clip-path": cp
         });
         angle02 += winT - ct;
         rad02 = Math.cos(angle02) * 100;
         let abs = (winT - ct + 100) / 10;
-        // console.log(abs)
-        // abs = Math.abs(abs)
         cp = 'polygon(0 ' + abs + '%, 100% ' + abs +'%, 100% 100%, 0% 100%)'
         if(ct < winT){
         }
-    });
+    }).trigger('scroll');
 }
 
 $(() => {
