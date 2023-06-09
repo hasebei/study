@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 .abc{
     background: url(../bg.png) repeat-y 0 0;
     margin-top: 100px;
@@ -37,6 +40,8 @@
 }
 
 .j{
+    background: #312d2d;
+    color: #ffffff;
     transform: matrix3d(
         1,0,0,0,
         0,1,0,0,
@@ -86,6 +91,60 @@
     width: 48%;
     height: 500px;
     overflow: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.n__list{
+    display: flex;
+    height: 350px;
+}
+
+.n__item{
+    transition: transform .2s linear 0s;
+    margin-left: 50px;
+    width: 300px;
+}
+.n__img{
+    overflow: hidden;
+}
+.n__img img{
+    max-width: 300px;
+}
+
+.n__img img:hover{
+
+}
+.o{
+    width: 100%;
+    height: 2000px;
+}
+.o .img{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    height: 500px;
+    width: 500px;
+}
+.o .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p{
+    height: 500px;
+    background: #00FFFF;
+    margin-top: 500px;
+}
+.q{
+    color: #000;
+    font-size: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;
+    z-index: 10;
 }
 @keyframes slideInfinite{
     0%{

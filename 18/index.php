@@ -62,6 +62,121 @@
 <a class="twitter-timeline" data-lang="ja" href="https://twitter.com/ashitabafc?ref_src=twsrc%5Etfw">Tweets by ashitabafc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div><!-- /.n -->
 
+    <ul class="n__list">
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+        <li class="n__item">
+            <h2 class="n__title">AAAAAAAAAAA</h2>
+            <div class="n__img"><img src="./images/1.png" alt=""></div>
+        </li><!-- /.n__img -->
+    </ul>
+
+</div><!-- /.n -->
+
+<div class="o">
+    <div class="img"><img src="./images/1.png" alt=""><img src="./images/2.png" alt=""></div><!-- /.img -->
+</div><!-- /.o -->
+
+<div class="p">
+
+</div><!-- /.p -->
+<!-- <div class="q">
+    STUDY STUDY STUDY STUDY STUDY
+</div>/.q -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 
