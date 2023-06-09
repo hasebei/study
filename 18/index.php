@@ -58,6 +58,10 @@
     <p>装飾</p>
 </div><!-- /.m -->
 
+<div class="n">
+<a class="twitter-timeline" data-lang="ja" href="https://twitter.com/ashitabafc?ref_src=twsrc%5Etfw">Tweets by ashitabafc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><!-- /.n -->
+
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 
