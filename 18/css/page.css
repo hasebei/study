@@ -88,9 +88,6 @@ html{
     font-size: 25px;
 }
 .n{
-    width: 48%;
-    height: 500px;
-    overflow: auto;
     max-width: 1000px;
     margin: 0 auto;
     overflow: auto;

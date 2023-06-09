@@ -14,7 +14,6 @@ let scrollEvent = () => {
     win.on('scroll', () => {
         angle = angle + 5;
         winT = win.scrollTop();
-        let winT = win.scrollTop();
         bgFixByScroll(winT);
         objRotate(winT);
     }).trigger('scroll');
@@ -53,20 +52,27 @@ const itemHover = () => {
     let target = $('.n__item');
     target.on('mousemove', function(e){
         let item = $(this);
+        let image = $('.n__img', item);
+        console.log(image.height())
         let centerX = item.width() / 2;
         let centerY = item.height() / 2;
         let rotateY = (e.offsetX - centerX) / 10;
         let rotateX = (e.offsetY - centerY) / 10;
-        console.log(e.offsetY +'------------'+ centerY)
-        console.log(rotateX)
-        item.css({
+        console.log(centerY +'------------'+ (e.offsetY - centerY))
+        // console.log(e.offsetY)
+        let rad = Math.PI / 180 * e.offsetY;
+        // console.log(Math.sin(rad) * 100 + centerY)
+        // console.log(rotateX)
+        image.css({
             'transform': 'scale(1.1) rotateY(' + rotateY + 'deg) rotateX(' + rotateX +'deg)'}
         );
     });
 
     target.on('mouseout', function(e){
         let item = $(this);
-        item.css({ 'transform': 'rotateY(0deg) rotateX(0deg)'})
+        let image = $('.n__img', item);
+        
+        image.css({ 'transform': 'rotateY(0deg) rotateX(0deg)'})
     })
 }
 
