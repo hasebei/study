@@ -131,7 +131,7 @@ html{
 .p{
     height: 500px;
     background: #00FFFF;
-    margin-top: 500px;
+    margin-top: 100vh;
 }
 .q{
     color: #000;
