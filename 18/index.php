@@ -169,11 +169,60 @@
 </div><!-- /.o -->
 
 <div class="p">
-
+    <input type="date" name="" id="">
 </div><!-- /.p -->
 <!-- <div class="q">
     STUDY STUDY STUDY STUDY STUDY
 </div>/.q -->
+<div class="r">
+    <ul>
+        <li>
+            <picture><img src="images/1.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/2.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/3.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/1.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/2.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/3.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/1.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/2.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/3.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/1.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/2.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/3.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/1.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/2.png" alt=""></picture>
+        </li>
+        <li>
+            <picture><img src="images/3.png" alt=""></picture>
+        </li>
+    </ul>
+</div><!-- /.r -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

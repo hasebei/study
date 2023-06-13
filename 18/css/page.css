@@ -1,6 +1,9 @@
 html{
     overflow-x: hidden;
 }
+img{
+    width: 100%;
+}
 .abc{
     background: url(../bg.png) repeat-y 0 0;
     margin-top: 100px;
@@ -114,7 +117,7 @@ html{
 }
 .o{
     width: 100%;
-    height: 2000px;
+    height: 1000px;
 }
 .o .img{
     position: sticky;
@@ -131,7 +134,7 @@ html{
 .p{
     height: 500px;
     background: #00FFFF;
-    margin-top: 100vh;
+    margin-top: 40vh;
 }
 .q{
     color: #000;
@@ -142,6 +145,15 @@ html{
     transform: translate(-50%, -50%);
     mix-blend-mode: overlay;
     z-index: 10;
+}
+.r{
+    overflow: hidden;
+}
+.r ul{
+    display: flex;
+}
+.r li{
+    width: 30em;
 }
 @keyframes slideInfinite{
     0%{
