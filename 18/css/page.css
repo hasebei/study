@@ -155,6 +155,25 @@ img{
 .r li{
     width: 30em;
 }
+.s video{
+    width: 100%;
+}
+.t{
+    background: #000;
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    left: 0;
+    /* mix-blend-mode: overlay; */
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: translate(-500px, -500px);
+    transition: transform .2s linear 0s;
+    width: 100px;
+    z-index: 1000;
+}
+
 @keyframes slideInfinite{
     0%{
         background-position: 0 0;

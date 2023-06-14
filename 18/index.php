@@ -223,6 +223,12 @@
         </li>
     </ul>
 </div><!-- /.r -->
+<div class="s">
+    <video src="movie/neco01_720.mp4" autoplay muted loop preload="auto"></video>
+</div><!-- /.s -->
+<div class="t">
+    
+</div><!-- /.t -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

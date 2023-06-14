@@ -76,29 +76,42 @@ const itemHover = () => {
     })
 }
 
-var ct;
-var rad02 = 0;
-var angle02 = 0;
 const imgClip = () =>{
     let container = $('.o');
     let target = $('img:nth-child(2)', container);
-    ct = container.offset().top;
+    let ct = container.offset().top;
     let cp = 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)';
     win.on('scroll', function(e){
+        // console.log(winT - ct)
         target.css({
             "clip-path": cp
         });
-        angle02 += winT - ct;
-        rad02 = Math.cos(angle02) * 100;
-        let abs = (winT - ct + 100) / 10;
+        let abs = (winT - ct +100) / 10;
         cp = 'polygon(0 ' + abs + '%, 100% ' + abs +'%, 100% 100%, 0% 100%)'
         if(ct < winT){
         }
     }).trigger('scroll');
 }
 
+const traceCursor = () => {
+    let target = $('.t');
+    let scale = 0.2
+    $('.link').on('mouseover', function(){
+        scale = 0.4;
+    });
+    $('.link').on('mouseout', function(){
+        scale = 0.2;
+    })
+    win.on('mousemove', function(e){
+        target.css({
+            'transform': 'translate( calc(-50% + ' + e.clientX + 'px), calc( -50% + ' + e.clientY +'px)) scale(' + scale + ') ' 
+        });
+    });
+}
+
 $(() => {
     scrollEvent();
     itemHover();
     imgClip();
+    traceCursor();
 });
