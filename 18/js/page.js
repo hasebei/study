@@ -16,6 +16,7 @@ let scrollEvent = () => {
         winT = win.scrollTop();
         bgFixByScroll(winT);
         objRotate(winT);
+        listMove()
     }).trigger('scroll');
 }
 
@@ -94,19 +95,35 @@ const imgClip = () =>{
 }
 
 const traceCursor = () => {
-    let target = $('.t');
-    let scale = 0.2
+    let target = $('.v');
+    let scale = 0.8
     $('.link').on('mouseover', function(){
         scale = 0.4;
     });
     $('.link').on('mouseout', function(){
-        scale = 0.2;
-    })
+        scale = 0.8;
+    });
     win.on('mousemove', function(e){
+        let mouseX, mouseY;
+        if(window.devicePixelRatio === 1){
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        }else{
+            mouseX = e.clientX * 2;
+            mouseY = e.clientY * 2;
+        }
         target.css({
-            'transform': 'translate( calc(-50% + ' + e.clientX + 'px), calc( -50% + ' + e.clientY +'px)) scale(' + scale + ') ' 
+            'transform': 'translate( calc(-50% + ' + mouseX + 'px), calc( -50% + ' + mouseY +'px)) scale(' + scale + ') ' 
         });
     });
+}
+
+const listMove = () => {
+    let target = $('.r ul');
+    console.log(target.offset().left)
+    // target.css({
+
+    // })
 }
 
 $(() => {
