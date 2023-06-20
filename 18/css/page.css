@@ -2,7 +2,7 @@ html{
     overflow-x: hidden;
 }
 img{
-    width: 100%;
+    /* width: 100%; */
 }
 .abc{
     background: url(../bg.png) repeat-y 0 0;
@@ -107,6 +107,7 @@ img{
 }
 .n__img{
     overflow: hidden;
+    white-space: nowrap;
 }
 .n__img img{
     max-width: 300px;
@@ -208,13 +209,13 @@ img{
     background: #000000;
     content: '';
     display: block;
-    height: 20px;
+    height: 10px;
     left: 0;
     margin: auto;
     position: absolute;
     right: 0;
     top: 0;
-    width: 20px;
+    width: 10px;
 }
 .v svg{
     color: #000;

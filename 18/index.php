@@ -62,7 +62,7 @@
     <ul class="n__list">
         <li class="n__item">
             <h2 class="n__title">AAAAAAAAAAA</h2>
-            <div class="n__img"><img src="./images/1.png" alt=""></div>
+            <div class="n__img">AAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAA<br></div>
         </li><!-- /.n__img -->
         <li class="n__item">
             <h2 class="n__title">AAAAAAAAAAA</h2>

@@ -50,21 +50,21 @@ let objRotate = (winT) => {
 }
 
 const itemHover = () => {
-    let target = $('.n__item');
+    let target = $('.n__img');
     target.on('mousemove', function(e){
         let item = $(this);
-        let image = $('.n__img', item);
-        console.log(image.height())
+        // console.log(item.height())
         let centerX = item.width() / 2;
         let centerY = item.height() / 2;
-        let rotateY = (e.offsetX - centerX) / 10;
-        let rotateX = (e.offsetY - centerY) / 10;
-        console.log(centerY +'------------'+ (e.offsetY - centerY))
-        // console.log(e.offsetY)
-        let rad = Math.PI / 180 * e.offsetY;
-        // console.log(Math.sin(rad) * 100 + centerY)
+        let rotateY = (e.offsetX - centerX) / 5;
+        let rotateX = (e.offsetY - centerY) / 5;
+        // console.log(e.offsetY + centerY)
+        console.log(item.height())
+        console.log(e.offsetY)
+        let rad = Math.PI / 180 * item.height();
+        console.log(Math.sin(rad))
         // console.log(rotateX)
-        image.css({
+        item.css({
             'transform': 'scale(1.1) rotateY(' + rotateY + 'deg) rotateX(' + rotateX +'deg)'}
         );
     });
