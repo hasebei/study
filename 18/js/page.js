@@ -62,7 +62,7 @@ const itemHover = () => {
         // console.log(item.height())
         // console.log(e.offsetY)
         let rad = Math.PI / 180 * item.height();
-        console.log(Math.sin(rad))
+        // console.log(Math.sin(rad))
         // console.log(rotateX)
         item.css({
             'transform': 'scale(1.1) rotateY(' + rotateY + 'deg) rotateX(' + rotateX +'deg)'}
@@ -121,10 +121,29 @@ const traceCursor = () => {
 
 const listMove = () => {
     let target = $('.r ul');
-    console.log(target.offset().left)
+    // console.log(target.offset().left)
     // target.css({
 
     // })
+}
+
+const listScroll = () => {
+    let container = $('.w');
+    let ct = container.offset().top;
+    let target = $('.w ul');
+    win.on('scroll', function(e){
+        console.log(ct < winT)
+        if(ct < winT){
+            // console.log(winT - ct)
+            target.css({
+                transform: 'translateX(-' + (winT - ct) +'px)'
+            })
+        }else{
+            target.css({
+                transform: 'translateX(0px)'
+            })
+        }
+    });
 }
 
 $(() => {
@@ -132,4 +151,5 @@ $(() => {
     itemHover();
     imgClip();
     traceCursor();
+    listScroll();
 });

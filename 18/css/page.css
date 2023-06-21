@@ -224,6 +224,31 @@ img{
     font-size: 20px;
     fill: #000;
 }
+.w{
+    background: #000000;
+    color: #ffffff;
+    position: sticky;
+    top: calc(50% - 250px);
+    z-index: 20;
+}
+.w ul{
+    width: 5000px;
+}
+.w ul::after{
+    content: '';
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
+.w li{
+    float: left;
+}
+.x{
+    background: #ffffff;
+    height: 5000px;
+    position: relative;
+    z-index: 10;
+}
 @keyframes slideInfinite{
     0%{
         background-position: 0 0;
