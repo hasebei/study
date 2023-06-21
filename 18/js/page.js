@@ -56,11 +56,11 @@ const itemHover = () => {
         // console.log(item.height())
         let centerX = item.width() / 2;
         let centerY = item.height() / 2;
-        let rotateY = (e.offsetX - centerX) / 5;
-        let rotateX = (e.offsetY - centerY) / 5;
+        let rotateY = (e.offsetX - centerX) / 7;
+        let rotateX = (e.offsetY - centerY) / 7;
         // console.log(e.offsetY + centerY)
-        console.log(item.height())
-        console.log(e.offsetY)
+        // console.log(item.height())
+        // console.log(e.offsetY)
         let rad = Math.PI / 180 * item.height();
         console.log(Math.sin(rad))
         // console.log(rotateX)
@@ -103,14 +103,15 @@ const traceCursor = () => {
     $('.link').on('mouseout', function(){
         scale = 0.8;
     });
+    // console.log(window.devicePixelRatio)
     win.on('mousemove', function(e){
         let mouseX, mouseY;
-        if(window.devicePixelRatio === 1){
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-        }else{
+        if(window.devicePixelRatio === 2){
             mouseX = e.clientX * 2;
             mouseY = e.clientY * 2;
+        }else{
+            mouseX = e.clientX;
+            mouseY = e.clientY;
         }
         target.css({
             'transform': 'translate( calc(-50% + ' + mouseX + 'px), calc( -50% + ' + mouseY +'px)) scale(' + scale + ') ' 
