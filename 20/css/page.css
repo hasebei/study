@@ -1,0 +1,263 @@
+/* 
+reset
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    word-wrap: break-word;
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav,
+ul,
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    color: #307ecc;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+em {
+    font-style: normal;
+}
+
+
+/***********************************
+Page Style
+***********************************/
+:root{
+    --max-width: 1200px;
+}
+html{
+    overflow: hidden;
+}
+a{
+    box-sizing: border-box;
+}
+article{
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+nav{
+
+}
+nav ul{
+    background-image: linear-gradient(0deg, rgba(252, 191, 204, 1) 1%, rgba(245, 114, 136, 1) 50%, rgba(251, 189, 204, 1)), linear-gradient(0deg, rgba(154, 39, 238, 1), rgba(253, 193, 204, 1));
+    display: flex;
+}
+nav li{
+    position: relative;
+    width: 20%;
+}
+nav li::after{
+    background: #ffffff;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 80%;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+}
+nav li:last-child::after{
+    content: none;
+}
+nav a{
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 15px 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+nav .item01 a{
+    background: url(../images/icon01.png) no-repeat 5px 50%, url(../images/icon01.png) no-repeat calc(100% - 5px) 50%;
+}
+nav .item02 a{
+    background: url(../images/icon02.png) no-repeat 5px 50%, url(../images/icon02.png) no-repeat calc(100% - 5px) 50%;
+}
+nav .item03 a{
+    background: url(../images/icon03.png) no-repeat 5px 50%, url(../images/icon03.png) no-repeat calc(100% - 5px) 50%;
+}
+nav .item04 a{
+    background: url(../images/icon04.png) no-repeat 5px 50%, url(../images/icon04.png) no-repeat calc(100% - 5px) 50%;
+}
+nav .item05 a{
+    background: url(../images/icon05.png) no-repeat 5px 50%, url(../images/icon05.png) no-repeat calc(100% - 5px) 50%;
+}
