@@ -441,6 +441,21 @@
     </ul>
 </div><!-- /.w -->
 <div class="x">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><!-- /.x -->
+
+<div class="y">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 306.47 132.84" style="enable-background:new 0 0 306.47 132.84;" xml:space="preserve">
+<style type="text/css">
+.st0{
+    fill:none;
+    stroke:#1D2088;
+    stroke-width:10;
+    stroke-miterlimit:50;
+}
+</style>
+<path class="st0" d="M4.92,128.6C4.92,128.6,27.39,5,153.23,5s148.31,126.97,148.31,126.97"/>
+</svg>
+
+</div><!-- /.y -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

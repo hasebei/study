@@ -146,10 +146,21 @@ const listScroll = () => {
     });
 }
 
+const lineView = () => {
+    let container = $('.y');
+    setInterval(() => {
+        container.addClass('line')
+    },2000)
+    setInterval(() => {
+        container.removeClass('line')
+    },6000)
+}
+
 $(() => {
     scrollEvent();
     itemHover();
     imgClip();
     traceCursor();
     listScroll();
+    lineView();
 });

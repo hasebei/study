@@ -249,6 +249,32 @@ img{
     position: relative;
     z-index: 10;
 }
+.y{
+    background: #ffffff;
+    position: relative;
+    width: 500px;
+    z-index: 10;
+}
+
+.y{
+    display: none;
+}
+.y.line{
+    display: block;
+
+}
+.y.line .st0 {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line 1s linear forwards;
+}
+
+@keyframes line {
+    to {
+        stroke-dashoffset: 1000px;
+    }
+}
+
 @keyframes slideInfinite{
     0%{
         background-position: 0 0;
