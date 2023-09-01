@@ -255,23 +255,61 @@ img{
     width: 500px;
     z-index: 10;
 }
-
-.y{
+.y img{
+    width: auto;
+}
+.y #rainbow{
     display: none;
 }
-.y.line{
+.y #rainbow.line{
     display: block;
 
 }
-.y.line .st0 {
+.y #rainbow.line .st0 {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line 1s linear forwards;
 }
-
+.y .cloud{
+    position: absolute;
+}
+.y #cloud01{
+    animation: cloudMove 10s linear infinite;
+    top: 100px;
+}
+.y #cloud02{
+    /* animation: cloudMove 13s linear infinite; */
+    top: 120px;
+}
+.y #cloud03{
+    /* animation: cloudMove 5s linear infinite; */
+    top: 240px;
+}
+.y #cloud04{
+    /* animation: cloudMove 20s linear infinite; */
+    top: 300px;
+}
 @keyframes line {
     to {
         stroke-dashoffset: 1000px;
+    }
+}
+
+@keyframes cloudMove{
+    0%{
+        transform: translate(800px, -20px);
+    }
+    25%{
+        transform: translate(600px, 20px);
+    }
+    50%{
+        transform: translate(400px, -20px);
+    }
+    75%{
+        transform: translate(200px, 20px);
+    }
+    100%{
+        transform: translate(0, -20px);
     }
 }
 

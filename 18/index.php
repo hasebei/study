@@ -443,7 +443,11 @@
 <div class="x">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><!-- /.x -->
 
 <div class="y">
-<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 306.47 132.84" style="enable-background:new 0 0 306.47 132.84;" xml:space="preserve">
+<p id="cloud01" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
+<p id="cloud02" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
+<p id="cloud03" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
+<p id="cloud04" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
+<svg version="1.1" id="rainbow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 306.47 132.84" style="enable-background:new 0 0 306.47 132.84;" xml:space="preserve">
 <style type="text/css">
 .st0{
     fill:none;

@@ -147,13 +147,17 @@ const listScroll = () => {
 }
 
 const lineView = () => {
-    let container = $('.y');
+    let container = $('#rainbow');
     setInterval(() => {
         container.addClass('line')
     },2000)
     setInterval(() => {
         container.removeClass('line')
     },6000)
+}
+
+const cloudMove = () => {
+    
 }
 
 $(() => {
