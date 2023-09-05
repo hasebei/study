@@ -263,7 +263,7 @@ img{
 }
 .y #rainbow.line{
     display: block;
-
+    
 }
 .y #rainbow.line .st0 {
     stroke-dasharray: 500px;
@@ -289,6 +289,24 @@ img{
     /* animation: cloudMove 20s linear infinite; */
     top: 300px;
 }
+.z{
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
+}
+.zst0{
+    animation: rotateSun 10s linear 0s infinite ;
+    transform-origin: 50% 50%;
+}
+@keyframes rotateSun{
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 @keyframes line {
     to {
         stroke-dashoffset: 1000px;
