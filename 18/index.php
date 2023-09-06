@@ -447,55 +447,100 @@
 <p id="cloud02" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
 <p id="cloud03" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
 <p id="cloud04" class="cloud"><img src="./images/cloud01.png" alt="" srcset="" width="191" height="115"></p><!-- /.cloud -->
-<svg version="1.1" id="rainbow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 306.47 132.84" style="enable-background:new 0 0 306.47 132.84;" xml:space="preserve">
+<svg version="1.1" id="rainbow" class="line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 712.1 710" style="enable-background:new 0 0 712.1 710;" xml:space="preserve">
 <style type="text/css">
-.st0{
-    fill:none;
-    stroke:#1D2088;
-    stroke-width:10;
-    stroke-miterlimit:50;
-}
+	.y .st0{fill:none;stroke:#AC72A8;stroke-width:30;stroke-miterlimit:10;}
+	.y .st1{fill:none;stroke:#8FBB3E;stroke-width:30;stroke-miterlimit:10;}
+	.y .st2{fill:none;stroke:#F8EF5B;stroke-width:30;stroke-miterlimit:10;}
+	.y .st3{fill:none;stroke:#E7B333;stroke-width:30;stroke-miterlimit:10;}
+	.y .st4{fill:none;stroke:#2F9D4A;stroke-width:30;stroke-miterlimit:10;}
+	.y .st5{fill:none;stroke:#37A1E1;stroke-width:30;stroke-miterlimit:10;}
+	.y .st6{fill:none;stroke:#C72C3D;stroke-width:30;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M4.92,128.6C4.92,128.6,27.39,5,153.23,5s148.31,126.97,148.31,126.97"/>
+<image style="display:none;overflow:visible;" width="703" height="517" xlink:href="../../../../../Desktop/長方形-5-のコピー-12_03.png"  transform="matrix(1 0 0 1 3.5 0.4763)">
+</image>
+<circle class="st0" cx="358" cy="356.5" r="161.8"/>
+<circle class="st1" cx="358" cy="356.5" r="190.5"/>
+<circle class="st2" cx="358" cy="356.5" r="220.2"/>
+<circle class="st3" cx="358" cy="356.5" r="250.4"/>
+<circle class="st4" cx="358" cy="356.5" r="279.8"/>
+<circle class="st5" cx="358" cy="356.5" r="308"/>
+<circle class="st6" cx="358" cy="356.5" r="337.9"/>
 </svg>
-
 </div><!-- /.y -->
 <div class="z">
-    <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-        y="0px" viewBox="0 0 261 257.3" style="enable-background:new 0 0 261 257.3;" xml:space="preserve">
-    <style type="text/css">
-        .zst0C,
-        .zst0{
-            fill:#CE5E4E;
-        }
-    </style>
-    <circle class="zst0C" cx="130.5" cy="127.5" r="81.5"/>
-    <path class="zst0" d="M125.9,2.6l-16.1,27.9c-2,3.5,0.5,7.9,4.6,7.9h32.2c4.1,0,6.6-4.4,4.6-7.9L135,2.6C133-0.9,127.9-0.9,125.9,2.6
-        z"/>
-    <path class="zst0" d="M191.9,17.8L164,33.9c-3.5,2-3.5,7.1,0,9.1l27.9,16.1c3.5,2,7.9-0.5,7.9-4.6V22.3
-        C199.8,18.3,195.4,15.7,191.9,17.8z"/>
-    <path class="zst0" d="M239.9,61l-32.1,2.7c-4,0.3-6.2,4.9-3.9,8.3l18.4,26.4c2.3,3.3,7.4,2.9,9.1-0.8l13.7-29.1
-        C246.8,64.8,243.9,60.6,239.9,61z"/>
-    <path class="zst0" d="M125.9,254.6l-16.1-27.9c-2-3.5,0.5-7.9,4.6-7.9h32.2c4.1,0,6.6,4.4,4.6,7.9L135,254.6
-        C133,258.1,127.9,258.1,125.9,254.6z"/>
-    <path class="zst0" d="M191.9,239.5L164,223.4c-3.5-2-3.5-7.1,0-9.1l27.9-16.1c3.5-2,7.9,0.5,7.9,4.6v32.2
-        C199.8,239,195.4,241.5,191.9,239.5z"/>
-    <path class="zst0" d="M239.9,196.3l-32.1-2.7c-4-0.3-6.2-4.9-3.9-8.3l18.4-26.4c2.3-3.3,7.4-2.9,9.1,0.8l13.7,29.1
-        C246.8,192.5,243.9,196.6,239.9,196.3z"/>
-    <path class="zst0" d="M258.4,133.4l-27.9,16.1c-3.5,2-7.9-0.5-7.9-4.6l0-32.2c0-4.1,4.4-6.6,7.9-4.6l27.9,16.1
-        C261.9,126.3,261.9,131.4,258.4,133.4z"/>
-    <path class="zst0" d="M69.2,17.8L97,33.9c3.5,2,3.5,7.1,0,9.1L69.2,59.1c-3.5,2-7.9-0.5-7.9-4.6l0-32.2
-        C61.3,18.3,65.6,15.7,69.2,17.8z"/>
-    <path class="zst0" d="M21.1,61l32.1,2.7c4,0.3,6.2,4.9,3.9,8.3L38.7,98.4c-2.3,3.3-7.4,2.9-9.1-0.8L15.9,68.5
-        C14.2,64.8,17.1,60.6,21.1,61z"/>
-    <path class="zst0" d="M69.2,239.5L97,223.4c3.5-2,3.5-7.1,0-9.1l-27.9-16.1c-3.5-2-7.9,0.5-7.9,4.6l0,32.2
-        C61.3,239,65.6,241.5,69.2,239.5z"/>
-    <path class="zst0" d="M21.1,196.3l32.1-2.7c4-0.3,6.2-4.9,3.9-8.3l-18.4-26.4c-2.3-3.3-7.4-2.9-9.1,0.8l-13.7,29.1
-        C14.2,192.5,17.1,196.6,21.1,196.3z"/>
-    <path class="zst0" d="M2.6,133.4l27.9,16.1c3.5,2,7.9-0.5,7.9-4.6l0-32.2c0-4.1-4.4-6.6-7.9-4.6L2.6,124.3
-        C-0.9,126.3-0.9,131.4,2.6,133.4z"/>
-    </svg>
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 261 257.3" style="enable-background:new 0 0 261 257.3;" xml:space="preserve">
+<style type="text/css">
+	.zst0{fill:#CE5E4E;}
+</style>
+<circle class="zst0" cx="130.5" cy="127.5" r="81.5"/>
+<path class="zst0" d="M125.9,2.6l-16.1,27.9c-2,3.5,0.5,7.9,4.6,7.9h32.2c4.1,0,6.6-4.4,4.6-7.9L135,2.6C133-0.9,127.9-0.9,125.9,2.6
+	z"/>
+<path class="zst0" d="M191.9,17.8L164,33.9c-3.5,2-3.5,7.1,0,9.1l27.9,16.1c3.5,2,7.9-0.5,7.9-4.6V22.3
+	C199.8,18.3,195.4,15.7,191.9,17.8z"/>
+<path class="zst0" d="M239.9,61l-32.1,2.7c-4,0.3-6.2,4.9-3.9,8.3l18.4,26.4c2.3,3.3,7.4,2.9,9.1-0.8l13.7-29.1
+	C246.8,64.8,243.9,60.6,239.9,61z"/>
+<path class="zst0" d="M125.9,254.6l-16.1-27.9c-2-3.5,0.5-7.9,4.6-7.9h32.2c4.1,0,6.6,4.4,4.6,7.9L135,254.6
+	C133,258.1,127.9,258.1,125.9,254.6z"/>
+<path class="zst0" d="M191.9,239.5L164,223.4c-3.5-2-3.5-7.1,0-9.1l27.9-16.1c3.5-2,7.9,0.5,7.9,4.6v32.2
+	C199.8,239,195.4,241.5,191.9,239.5z"/>
+<path class="zst0" d="M239.9,196.3l-32.1-2.7c-4-0.3-6.2-4.9-3.9-8.3l18.4-26.4c2.3-3.3,7.4-2.9,9.1,0.8l13.7,29.1
+	C246.8,192.5,243.9,196.6,239.9,196.3z"/>
+<path class="zst0" d="M258.4,133.4l-27.9,16.1c-3.5,2-7.9-0.5-7.9-4.6l0-32.2c0-4.1,4.4-6.6,7.9-4.6l27.9,16.1
+	C261.9,126.3,261.9,131.4,258.4,133.4z"/>
+<path class="zst0" d="M69.2,17.8L97,33.9c3.5,2,3.5,7.1,0,9.1L69.2,59.1c-3.5,2-7.9-0.5-7.9-4.6l0-32.2
+	C61.3,18.3,65.6,15.7,69.2,17.8z"/>
+<path class="zst0" d="M21.1,61l32.1,2.7c4,0.3,6.2,4.9,3.9,8.3L38.7,98.4c-2.3,3.3-7.4,2.9-9.1-0.8L15.9,68.5
+	C14.2,64.8,17.1,60.6,21.1,61z"/>
+<path class="zst0" d="M69.2,239.5L97,223.4c3.5-2,3.5-7.1,0-9.1l-27.9-16.1c-3.5-2-7.9,0.5-7.9,4.6l0,32.2
+	C61.3,239,65.6,241.5,69.2,239.5z"/>
+<path class="zst0" d="M21.1,196.3l32.1-2.7c4-0.3,6.2-4.9,3.9-8.3l-18.4-26.4c-2.3-3.3-7.4-2.9-9.1,0.8l-13.7,29.1
+	C14.2,192.5,17.1,196.6,21.1,196.3z"/>
+<path class="zst0" d="M2.6,133.4l27.9,16.1c3.5,2,7.9-0.5,7.9-4.6l0-32.2c0-4.1-4.4-6.6-7.9-4.6L2.6,124.3
+	C-0.9,126.3-0.9,131.4,2.6,133.4z"/>
+</svg>
 </div><!-- /.z -->
+<div class="aa">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 95 91.2" style="enable-background:new 0 0 95 91.2;" xml:space="preserve">
+<style type="text/css">
+	.aa .st0{fill:#EED5A7;}
+	.aa .st1{fill:#F8F5A8;}
+	.aa .st2{fill:#40474B;}
+</style>
+<image style="display:none;overflow:visible;" width="107" height="93" xlink:href="D:\works\sagamiene.jp\230830_サイト制作\ai\build01.png"  transform="matrix(1 0 0 1 -6.0167 -0.7712)">
+</image>
+<g>
+	<rect x="11.5" y="36.2" class="st0" width="73" height="54"/>
+	<path d="M83.5,37.2v52h-71v-52H83.5 M85.5,35.2h-75v56h75V35.2L85.5,35.2z"/>
+</g>
+<g>
+	<path class="st1" d="M3,38.3c-1.1,0-1.7-0.7-1.9-1.4c-0.2-0.7-0.2-1.6,0.7-2.2L46.3,1.4C46.6,1.1,47,1,47.5,1s0.8,0.1,1.2,0.4
+		l44.5,33.3c0.9,0.6,0.9,1.6,0.7,2.2c-0.2,0.7-0.8,1.4-1.9,1.4H3z"/>
+	<path d="M47.5,2c0.2,0,0.4,0,0.6,0.2l44.5,33.3c0.5,0.4,0.4,0.9,0.4,1.1c-0.1,0.2-0.3,0.7-0.9,0.7H3c-0.7,0-0.9-0.5-0.9-0.7
+		c-0.1-0.2-0.2-0.7,0.4-1.1L46.9,2.2C47.1,2,47.3,2,47.5,2 M47.5,0c-0.6,0-1.3,0.2-1.8,0.6L1.2,33.9c-2.3,1.7-1.1,5.4,1.8,5.4h89
+		c2.9,0,4.1-3.7,1.8-5.4L49.3,0.6C48.7,0.2,48.1,0,47.5,0L47.5,0z"/>
+</g>
+<g>
+	<rect x="35.5" y="47.7" class="st2" width="13" height="13"/>
+	<path d="M47.5,48.7v11h-11v-11H47.5 M49.5,46.7h-15v15h15V46.7L49.5,46.7z"/>
+</g>
+<g>
+	<rect x="48.5" y="47.7" class="st2" width="13" height="13"/>
+	<path d="M60.5,48.7v11h-11v-11H60.5 M62.5,46.7h-15v15h15V46.7L62.5,46.7z"/>
+</g>
+<g>
+	<rect x="35.5" y="60.7" class="st2" width="13" height="13"/>
+	<path d="M47.5,61.7v11h-11v-11H47.5 M49.5,59.7h-15v15h15V59.7L49.5,59.7z"/>
+</g>
+<g>
+	<rect x="48.5" y="60.7" class="st2" width="13" height="13"/>
+	<path d="M60.5,61.7v11h-11v-11H60.5 M62.5,59.7h-15v15h15V59.7L62.5,59.7z"/>
+</g>
+</svg>
+</div><!-- /.aa -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

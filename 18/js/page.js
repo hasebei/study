@@ -166,5 +166,5 @@ $(() => {
     imgClip();
     traceCursor();
     listScroll();
-    lineView();
+    // lineView();
 });

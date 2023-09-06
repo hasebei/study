@@ -251,8 +251,9 @@ img{
 }
 .y{
     background: #ffffff;
+    height: 1000px;
     position: relative;
-    width: 500px;
+    /* width: 500px; */
     z-index: 10;
 }
 .y img{
@@ -265,9 +266,9 @@ img{
     display: block;
     
 }
-.y #rainbow.line .st0 {
-    stroke-dasharray: 500px;
-    stroke-dashoffset: 500px;
+.y #rainbow.line .st1 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
     animation: line 1s linear forwards;
 }
 .y .cloud{
@@ -298,6 +299,24 @@ img{
     animation: rotateSun 10s linear 0s infinite ;
     transform-origin: 50% 50%;
 }
+.aa{
+    width: 100px;
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
+}
+.aa .st2{
+    animation: lightOn 1s linear 3s forwards;
+}
+@keyframes lightOn{
+    0% {
+        fill: #40474a;
+    }
+    100%{
+        fill: #ffe400;
+    }
+}
+
 @keyframes rotateSun{
     0% {
         transform: rotate(0);
@@ -309,25 +328,28 @@ img{
 
 @keyframes line {
     to {
-        stroke-dashoffset: 1000px;
+        stroke-dashoffset: 1500;
     }
 }
 
 @keyframes cloudMove{
     0%{
-        transform: translate(800px, -20px);
+        transform: translate(100vw, -20px);
     }
-    25%{
-        transform: translate(600px, 20px);
+    20%{
+        transform: translate(75vw, 20px);
     }
-    50%{
-        transform: translate(400px, -20px);
+    40%{
+        transform: translate(50vw, -20px);
     }
-    75%{
-        transform: translate(200px, 20px);
+    60%{
+        transform: translate(25vw, 20px);
+    }
+    80%{
+        transform: translate(0vw, -20px);
     }
     100%{
-        transform: translate(0, -20px);
+        transform: translate(-25vw, 20px);
     }
 }
 
