@@ -308,6 +308,15 @@ img{
 .aa .st2{
     animation: lightOn 1s linear 3s forwards;
 }
+.bb {
+}
+.bb span{
+    display: inline-block;
+    background: #ff0000;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: -5px;
+}
 @keyframes lightOn{
     0% {
         fill: #40474a;
