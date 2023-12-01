@@ -544,6 +544,9 @@
 <div class="bb">
     <span>明</span><span>る</span><span>さ</span><span>変</span><span>わ</span><span>ら</span><span>ず、</span><span>で</span><span>も</span><span>電</span><span>気</span><span>代</span><span>は</span><span>安</span><span>く</span>
 </div><!-- /.bb -->
+<div class="cc">
+    <div class="bg"></div>
+</div><!-- /.cc -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

@@ -317,6 +317,13 @@ img{
     padding: 5px;
     margin-left: -5px;
 }
+.cc .bg{
+    background: url(/18/images/pat01.png) 0 0;
+    top: 0;
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+}
 @keyframes lightOn{
     0% {
         fill: #40474a;
