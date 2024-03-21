@@ -328,13 +328,48 @@ img{
     position: fixed;
     width: 100vw;
 }
+.dd{
+    height: 2em;
+    overflow: hidden;
+}
 .dd p{
-
+    background: #ffffff;
+    font-size: 50px;
+    transition: transform .3s ease-out 0s;
+    transform: translate(0, 0);
+    position: relative;
+}
+.dd p::after{
+    content: attr(data-text);
+    display: block;
+    top: 100%;
+    left: 0;
+}
+.ee{
+    background: #ffffff;
+    position: relative;
+    z-index: 1001;
+}
+.ee p{
+    position: sticky;
+    top: 0;
+    left: 100px;
+    width: 20px;
+}
+.ee div{
+    text-align: right;
+}
+.ff{
+    background: #999;
+    height: 1000px;
+    position: relative;
+    z-index: 1000;
 }
 @media (hover: hover){
-.dd p:hover{
-    font-size: 50px;
-}
+    .dd p:hover{
+        /* animation: moveText .3s linear 0s 1 alternate forwards; */
+        transform: translate(0, -1em);
+    }
 }
 @keyframes lightOn{
     0% {
@@ -416,5 +451,15 @@ img{
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+
+@keyframes moveText{
+    0% {
+        transform: translate(0,0);
+    }
+
+    100% {
+        transform: translate(0, -1em);
     }
 }
