@@ -547,6 +547,9 @@
 <div class="cc">
     <div class="bg"></div>
 </div><!-- /.cc -->
+<div class="dd">
+    <p data-text="TEXT TEXT">TEXT TEXT</p>
+<!-- /.dd --></div>
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

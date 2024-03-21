@@ -317,12 +317,24 @@ img{
     padding: 5px;
     margin-left: -5px;
 }
+.cc{
+    position: relative;
+    z-index: -10;
+}
 .cc .bg{
     background: url(/18/images/pat01.png) 0 0;
     top: 0;
     height: 100vh;
     position: fixed;
     width: 100vw;
+}
+.dd p{
+
+}
+@media (hover: hover){
+.dd p:hover{
+    font-size: 50px;
+}
 }
 @keyframes lightOn{
     0% {
