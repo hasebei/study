@@ -346,11 +346,16 @@ img{
     left: 0;
 }
 .ee{
+    display: flex;
     background: #ffffff;
     position: relative;
     z-index: 1001;
 }
 .ee p{
+    width: 50%;
+}
+.ee p span{
+    display: inline-block;
     position: sticky;
     top: 0;
     left: 100px;
