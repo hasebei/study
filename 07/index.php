@@ -32,7 +32,7 @@
 <script>
 var MAX = 10;
 var RADIUS = 100;
-var FPS = 60;
+var FPS = 30;
 var CENTER = {x:200, y:200};
 var canvas, ctx, timer, point;
 var stats;
@@ -47,7 +47,7 @@ var Point = function(c, r, rota)
     this.radius = r;
 
     this.speed = Math.random() * 10 + 5;
-    this.r = Math.random() * 2 + 1;
+    this.r = Math.random() * 1 + .1;
     this.rota = 0;
 
 

@@ -1,0 +1,8 @@
+ExpiresActive On
+ExpiresDefault "access plus 1 minute"
+
+AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile /Users/hasebe/workspace/study.co.jp/12/members/.htpasswd
+require valid-user
+

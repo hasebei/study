@@ -1,10 +1,13 @@
-html{
+html {
     overflow-x: hidden;
 }
-img{
+
+img {
+    height: auto;
     width: 100%;
 }
-.abc{
+
+.abc {
     background: url(../bg.png) repeat-y 0 0;
     margin-top: 100px;
     height: 500px;
@@ -12,14 +15,14 @@ img{
     animation: slideInfinite 2s 0s linear infinite;
 }
 
-.dfg{
+.dfg {
     background: url(../stage.jpg) no-repeat 50% 100%;
     height: 200px;
     width: 100%;
     position: relative;
 }
 
-.dfg span{
+.dfg span {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -32,112 +35,122 @@ img{
     font-weight: bold;
 }
 
-.h{
+.h {
     text-align: center;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
-.i{
+.i {
     margin-top: 200px;
 }
 
-.j{
+.j {
     background: #312d2d;
     color: #ffffff;
-    transform: matrix3d(
-        1,0,0,0,
-        0,1,0,0,
-        0,0,2,0,
-        0,0,0,1
-    )
+    transform: matrix3d(1, 0, 0, 0,
+            0, 1, 0, 0,
+            0, 0, 2, 0,
+            0, 0, 0, 1)
 }
 
-.k{
+.k {
     position: relative;
 }
-.k img{
+
+.k img {
     -webkit-mask-image: url(../mask.png);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: left -1400px top 0;
     animation: maskMove 1s linear 2s 1 forwards;
 }
 
-.l{
+.l {
     display: flex;
     align-items: center;
     overflow: hidden;
 }
-.l .l-1{
+
+.l .l-1 {
     animation: infiniteScroll 2s infinite linear 1s both;
     display: flex;
     white-space: nowrap;
 }
-.l p{
+
+.l p {
     margin-left: 100px;
 }
 
-.l:hover .l-1{
+.l:hover .l-1 {
     animation-play-state: paused;
 }
 
-.m p{
+.m p {
     margin-top: 20px;
 }
-.m p:first-letter{
+
+.m p:first-letter {
     border-bottom: 2px solid #ff0000;
     color: #ff0000;
     display: inline-block;
     font-size: 25px;
 }
-.n{
+
+.n {
     max-width: 1000px;
     margin: 0 auto;
     overflow: auto;
 }
-.n__list{
+
+.n__list {
     display: flex;
     height: 350px;
 }
 
-.n__item{
+.n__item {
     transition: transform .2s linear 0s;
     margin-left: 50px;
     width: 300px;
 }
-.n__img{
+
+.n__img {
     overflow: hidden;
     white-space: nowrap;
 }
-.n__img img{
+
+.n__img img {
     max-width: 300px;
 }
 
-.n__img img:hover{
+.n__img img:hover {}
 
-}
-.o{
+.o {
     width: 100%;
     height: 2000px;
 }
-.o .img{
+
+.o .img {
     position: sticky;
     top: 150px;
     left: 100px;
     height: 500px;
     width: 500px;
 }
-.o .img img{
+
+.o .img img {
     position: absolute;
     top: 0;
     left: 0;
 }
-.p{
+
+.p {
     height: 500px;
     background: #00FFFF;
     margin-top: 40vh;
 }
-.q{
+
+.q {
     color: #000;
     font-size: 100px;
     position: fixed;
@@ -147,26 +160,32 @@ img{
     mix-blend-mode: overlay;
     z-index: 10;
 }
-.r{
+
+.r {
     display: flex;
     overflow: hidden;
 }
-.r ul{
+
+.r ul {
     animation: infiniteScroll 10s infinite linear 0s both;
     display: flex;
 }
-.r li{
+
+.r li {
     width: 300px;
 }
-.s{
+
+.s {
     margin-bottom: 30vh;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
-.s video{
+
+.s video {
     width: 100%;
 }
-.t{
+
+.t {
     background: #000;
     border-radius: 50%;
     display: block;
@@ -181,7 +200,8 @@ img{
     width: 100px;
     z-index: 1000;
 }
-.u{
+
+.u {
     background: #ffffff;
     font-size: 50px;
     height: 500px;
@@ -189,7 +209,8 @@ img{
     position: relative;
     z-index: 10;
 }
-.v{
+
+.v {
     pointer-events: none;
     position: fixed;
     top: 0;
@@ -199,11 +220,13 @@ img{
     height: 100px;
     z-index: 1000;
 }
-.v div{
+
+.v div {
     animation: rotateInfinite 5s infinite linear 0s both;
     position: relative;
 }
-.v div::after{
+
+.v div::after {
     bottom: 0;
     border-radius: 50%;
     background: #000000;
@@ -217,179 +240,250 @@ img{
     top: 0;
     width: 10px;
 }
-.v svg{
+
+.v svg {
     color: #000;
 }
-.v svg text{
+
+.v svg text {
     font-size: 20px;
     fill: #000;
 }
-.w{
+
+.w {
     background: #000000;
     color: #ffffff;
     position: sticky;
     top: calc(50% - 250px);
+    word-break: break-all;
     z-index: 20;
 }
-.w ul{
+
+.w ul {
     width: 5000px;
 }
-.w ul::after{
+
+.w ul::after {
     content: '';
     clear: both;
     display: table;
     overflow: hidden;
 }
-.w li{
+
+.w li {
     float: left;
 }
-.x{
+
+.x {
     background: #ffffff;
-    height: 5000px;
+    height: 500px;
     position: relative;
     z-index: 10;
 }
-.y{
+
+.y {
     background: #ffffff;
     height: 1000px;
     position: relative;
     /* width: 500px; */
     z-index: 10;
 }
-.y img{
+
+.y img {
     width: auto;
 }
-.y #rainbow{
+
+.y #rainbow {
     display: none;
 }
-.y #rainbow.line{
+
+.y #rainbow.line {
     display: block;
-    
+
 }
+
 .y #rainbow.line .st1 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     animation: line 1s linear forwards;
 }
-.y .cloud{
+
+.y .cloud {
     position: absolute;
 }
-.y #cloud01{
+
+.y #cloud01 {
     animation: cloudMove 10s linear infinite;
     top: 100px;
 }
-.y #cloud02{
+
+.y #cloud02 {
     /* animation: cloudMove 13s linear infinite; */
     top: 120px;
 }
-.y #cloud03{
+
+.y #cloud03 {
     /* animation: cloudMove 5s linear infinite; */
     top: 240px;
 }
-.y #cloud04{
+
+.y #cloud04 {
     /* animation: cloudMove 20s linear infinite; */
     top: 300px;
 }
-.z{
+
+.z {
     background: #ffffff;
     position: relative;
     z-index: 10;
 }
-.zst0{
-    animation: rotateSun 10s linear 0s infinite ;
+
+.zst0 {
+    animation: rotateSun 10s linear 0s infinite;
     transform-origin: 50% 50%;
 }
-.aa{
+
+.aa {
     width: 100px;
     background: #ffffff;
     position: relative;
     z-index: 10;
 }
-.aa .st2{
+
+.aa .st2 {
     animation: lightOn 1s linear 3s forwards;
 }
-.bb {
-}
-.bb span{
+
+.bb {}
+
+.bb span {
     display: inline-block;
     background: #ff0000;
     border-radius: 50%;
     padding: 5px;
     margin-left: -5px;
 }
-.cc{
+
+.cc {
     position: relative;
     z-index: -10;
 }
-.cc .bg{
+
+.cc .bg {
     background: url(/18/images/pat01.png) 0 0;
     top: 0;
     height: 100vh;
     position: fixed;
     width: 100vw;
 }
-.dd{
+
+.dd {
     height: 2em;
     overflow: hidden;
 }
-.dd p{
+
+.dd p {
     background: #ffffff;
     font-size: 50px;
     transition: transform .3s ease-out 0s;
     transform: translate(0, 0);
     position: relative;
 }
-.dd p::after{
+
+.dd p::after {
     content: attr(data-text);
     display: block;
     top: 100%;
     left: 0;
 }
-.ee{
+
+.ee {
     display: flex;
     background: #ffffff;
     position: relative;
     z-index: 1001;
 }
-.ee p{
+
+.ee p {
     width: 50%;
 }
-.ee p span{
+
+.ee p span {
     display: inline-block;
     position: sticky;
     top: 0;
     left: 100px;
     width: 20px;
 }
-.ee div{
+
+.ee div {
     text-align: right;
 }
-.ff{
+
+.ff {
     background: #999;
     height: 1000px;
     position: relative;
     z-index: 1000;
 }
-@media (hover: hover){
-    .dd p:hover{
+
+.gg {
+    clip-path: xywh(10px 10px 50% 100% round 50px 100px);
+    margin: 0 auto;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    transition: clip-path .2s linear;
+}
+
+.gg:active {
+    clip-path: xywh(10px 10px 30% 80% round 10px 30px 20px 189px);
+}
+
+.gg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hh {
+    margin: auto;
+    width: 40%;
+    /* mask-image: url(/18/images/cloud.png);
+    mask-position: center / 100%;
+    mask-repeat: no-repeat;
+    mask-size: auto; */
+    mask: url(/18/images/cloud.png) center / 100% auto no-repeat;
+    transition: mask-position .5s 0s linear, mask-size .5s 0s ease-out;
+}
+
+.hh:hover {
+    mask-position: center bottom;
+    mask-size: 120% auto;
+}
+
+@media (hover: hover) {
+    .dd p:hover {
         /* animation: moveText .3s linear 0s 1 alternate forwards; */
         transform: translate(0, -1em);
     }
 }
-@keyframes lightOn{
+
+@keyframes lightOn {
     0% {
         fill: #40474a;
     }
-    100%{
+
+    100% {
         fill: #ffe400;
     }
 }
 
-@keyframes rotateSun{
+@keyframes rotateSun {
     0% {
         transform: rotate(0);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -400,68 +494,77 @@ img{
     }
 }
 
-@keyframes cloudMove{
-    0%{
+@keyframes cloudMove {
+    0% {
         transform: translate(100vw, -20px);
     }
-    20%{
+
+    20% {
         transform: translate(75vw, 20px);
     }
-    40%{
+
+    40% {
         transform: translate(50vw, -20px);
     }
-    60%{
+
+    60% {
         transform: translate(25vw, 20px);
     }
-    80%{
+
+    80% {
         transform: translate(0vw, -20px);
     }
-    100%{
+
+    100% {
         transform: translate(-25vw, 20px);
     }
 }
 
-@keyframes slideInfinite{
-    0%{
+@keyframes slideInfinite {
+    0% {
         background-position: 0 0;
     }
-    100%{
+
+    100% {
         background-position: 0 81px;
     }
 }
 
-@keyframes maskMove{
-    0%{
+@keyframes maskMove {
+    0% {
         transform: rotate(0deg);
         -webkit-mask-position: left -1400px top 0;
     }
-    100%{
+
+    100% {
         /* transform: rotate(180deg); */
         -webkit-mask-position: left 0 top 0;
     }
 }
 
-@keyframes infiniteScroll{
-    0%{
+@keyframes infiniteScroll {
+    0% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(-100%);
     }
 }
 
-@keyframes rotateInfinite{
-    0%{
+@keyframes rotateInfinite {
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
 
-@keyframes moveText{
+@keyframes moveText {
     0% {
-        transform: translate(0,0);
+        transform: translate(0, 0);
     }
 
     100% {
