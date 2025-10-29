@@ -560,6 +560,9 @@
 <div class="gg">
     <img src="./images/farm01.JPEG" alt="" width="3024" height="4032">
 <!-- /.gg --></div>
+<div class="ii">
+    fixBottom
+<!-- /.gg --></div>
 <div class="ff">
     SPACE
 <!-- /.ff --></div>
