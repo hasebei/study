@@ -15,7 +15,7 @@
 
 <div class="dfg"><span>コンテンツ</span></div>
 
-<div class="h">AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAA<br></div><!-- /.h -->
+<div class="h"><div class="h01">h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br>h1h1h1h1h11h1h1h1h1h<br></div><!-- /.h01 --></div><!-- /.h -->
 
 <div class="i">
     iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>iiiiiiiiiiiiiiiiiiiiiiiiiiii<br><br><br>
@@ -563,9 +563,64 @@
 <div class="ii">
     fixBottom
 <!-- /.gg --></div>
+<div class="jj">
+    <div class="jj01">
+        <figure class="js-view"><img src="./images/dsk01.png" alt=""></figure>
+        <figure class="js-view"><img src="./images/dsk02.png" alt=""></figure>
+    </div><!-- /.jj01 -->
+    <div class="jj02">
+        <figure class="js-view"><img src="./images/dsk03.png" alt=""></figure>
+        <figure class="js-view"><img src="./images/dsk04.png" alt=""></figure>
+    </div><!-- /.jj02 -->
+<!-- /.jj --></div>
 <div class="ff">
     SPACE
 <!-- /.ff --></div>
+<div class="kk">
+    <p class="kk01"></p><!-- /.kk01 -->
+    <svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335.04 128.69"><path d="M0,.5h259.9s74.63,25.46,74.63,128.19" style="fill:none; stroke:#251e1c; stroke-miterlimit:10;"/></svg>
+    <div class="kk02"></div><!-- /.kk02 -->
+</div><!-- /.kk -->
+<div class="ll">
+    参考サイト<br>
+    <a href="https://ics.media/entry/230327/" target='_blank'>https://ics.media/entry/230327/</a>
+    <div class="ll01">
+        <div class="ll03">
+            <svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 913.79 468.89"><path d="M48.17,26.42s163.95,90.7,153.49,193.02-9.3,230.23,94.19,227.91,168.6-86.05,153.49-139.53-104.65-98.84-126.74-60.47-34.88,217.44,67.44,217.44,110.47-95.35,123.26-109.3,45.35-43.02,72.09,9.3,3.49,98.84,34.88,103.49,101.16-131.4,97.67-183.72,20.93-127.91,34.88-146.51,48.84-18.6,61.63,2.33,26.74,166.28,38.37,180.23,60.47,168.6,60.47,132.56v-250s-93.02,169.77-126.74,158.14-118.6-111.63-148.84-111.63-81.4,55.81-91.86,101.16-237.21,26.74-268.6-20.93-139.53-43.02-176.74-4.65S.5,485.72.5,429.91V.84l47.67,25.58Z" style="fill:none; stroke:#251e1c; stroke-miterlimit:10;"/></svg>
+        </div><!-- /.ll03 -->
+        <div class="ll02">
+            <span class="box" style="--index: 0;"></span><!-- /.box -->
+            <span class="box" style="--index: 1;"></span><!-- /.box -->
+            <span class="box" style="--index: 2;"></span><!-- /.box -->
+            <span class="box" style="--index: 3;"></span><!-- /.box -->
+        </div><!-- /.ll02 -->
+    </div><!-- /.ll01 -->
+</div><!-- /.ll -->
+<div class="mm">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <!-- <div class="mm01">
+        <svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.22 219.88"><path d="M113.49,32.02s-47.67-70.93-101.16,0,91.86,187.21,91.86,187.21c0,0,163.95-138.37,118.6-182.56s-61.63-39.53-109.3-4.65Z" style="fill:none; stroke:#251e1c; stroke-miterlimit:10;"/></svg> -->
+    </div><!-- /.mm01 -->
+</div><!-- /.mm -->
     <script src="js/jquery.min.js"></script>
     <script src="js/page.js"></script>
 

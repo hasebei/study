@@ -132,7 +132,7 @@ const listScroll = () => {
     let ct = container.offset().top;
     let target = $('.w ul');
     win.on('scroll', function(e){
-        console.log(ct < winT)
+        // console.log(ct < winT)
         if(ct < winT){
             // console.log(winT - ct)
             target.css({
@@ -159,6 +159,26 @@ const lineView = () => {
 const cloudMove = () => {
     
 }
+
+(() => {
+    const elements = document.querySelectorAll('.js-view');
+    const options = {
+        rootMargin: '0% 0%'
+    }
+    const observer = new IntersectionObserver((entries)=>{
+        console.log(entries[0])
+        if (entries[0].isIntersecting) {
+            // 画面内の時の処理
+            entries[0].target.classList.add("-action");
+        } else {
+            // 画面外の処理
+            entries[0].target.classList.remove("-action");
+        }
+    }, options);
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+})();
 
 $(() => {
     scrollEvent();
