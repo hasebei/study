@@ -169,10 +169,10 @@ const cloudMove = () => {
         console.log(entries[0])
         if (entries[0].isIntersecting) {
             // 画面内の時の処理
-            entries[0].target.classList.add("-action");
+            entries[0].target.classList.add("js-action");
         } else {
             // 画面外の処理
-            entries[0].target.classList.remove("-action");
+            entries[0].target.classList.remove("js-action");
         }
     }, options);
     elements.forEach(element => {

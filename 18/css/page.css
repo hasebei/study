@@ -575,7 +575,7 @@ img {
 .mm {
     width: 230px;
     margin: 50px auto 0;
-    height: 500px;
+    height: 275px;
 }
 .mm span{
     height: 30px;
@@ -644,6 +644,32 @@ img {
 }
 .mm span:nth-child(20) {
     offset-distance: 95%;
+}
+.nn {
+    /* height: 527px;
+    width: 1029px; */
+}
+.nn #mask-line{
+    animation:h-written 7s linear alternate;
+    animation-play-state: paused;
+    stroke-dasharray:2360px;
+    stroke:#fff;
+}
+.nn #mask-line.js-action{
+    animation-play-state: running
+}
+.nn #text {
+    mask:url(#mask-ani);
+}
+
+@keyframes h-written {
+    0% {
+        stroke-dashoffset:2600px;
+    }
+
+    100% {
+        stroke-dashoffset:0px;
+    }
 }
 @keyframes squareMove {
     to {
