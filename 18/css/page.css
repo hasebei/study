@@ -573,9 +573,9 @@ img {
     top: 0;
 }
 .mm {
-    width: 230px;
+    width: 450px;
     margin: 50px auto 0;
-    height: 275px;
+    height: 430px;
 }
 .mm span{
     height: 30px;
@@ -583,67 +583,174 @@ img {
     background: #000;
     position: absolute;
     display: inline-block;
-    offset-path: path('M113.49,32.02s-47.67-70.93-101.16,0,91.86,187.21,91.86,187.21c0,0,163.95-138.37,118.6-182.56s-61.63-39.53-109.3-4.65Z');
+    offset-path: path('M393.39,22.67c-78.6-34.79-123.26-6.98-166.28,67.44C192.22,14.53,129.43-19.19,63.15,12.2-13.45,48.49-6.31,159.09,14.32,212.2c38.37,98.84,211.63,218.6,211.63,218.6,0,0,179.07-139.53,208.14-206.98,23.27-54,30.23-169.77-40.7-201.16Z');
+    animation: rotateAnim 1s ease-out 0s infinite normal none running ;
 }
+.oo{
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+.oo01{
+    height: 355px;
+    width: 832px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin:0 auto;
+}
+.oo02{
+    height: 355px;
+    width: 832px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin:0 auto;
+}
+.oo span{
+    width: 10px;
+    height: 3px;
+    display: inline-block;
+    background: yellow;
+    position: absolute;
+    animation: squareMove 10s infinite linear;
+    offset-path: path('M18.46,54.56S91.94-22.18,144.18,7.21s88.17,125.72,120.83,140.42,158.38-4.9,177.97-17.96,1.63-34.29-24.49-29.39-73.48,27.76-62.05,40.82,39.19,26.12,71.84,27.76,88.17,0,117.56-13.06,13.06-99.6-34.29-111.03-179.61-39.19-209,1.63-70.21,120.83-83.27,161.65,13.06,57.15,32.66,57.15,63.68-76.74,83.27-63.68,97.97,14.7,122.46,84.9,75.11,88.17,97.97,48.98,31.02-107.76,21.23-125.72,45.72-145.32,68.58-133.89,70.21,137.15,114.29,124.09,65.31-66.94,70.21-89.8,0,205.73,0,205.73c0,0-140.42-16.33-171.44-63.68s-97.97-80.01-128.99-58.78-124.09,102.87-160.01,83.27-146.95-133.89-179.61-114.29-80.01,192.67-114.29,173.07S.5,261.92.5,235.8,18.46,54.56,18.46,54.56Z');
+}
+.oo span:nth-child(1){
+    animation-delay: 0;
+}
+.oo span:nth-child(2){
+    animation-delay: 0.1s;
+}
+.oo span:nth-child(3){
+    animation-delay: 0.2s;
+}
+.oo span:nth-child(4){
+    animation-delay: 0.3s;
+}
+.pp{
+    position: relative;
+    z-index: 100000;
+}
+.pp01{
+    background: #fff;
+    position: sticky;
+    top: 100px;
+    height: 200px;
+}
+.pp02{
+    background: pink;
+    height: 300px;
+    position: sticky;
+    top: 100px;
+}
+.pp03{
+    overflow: hidden;
+}
+.qq{
+    /* background: gold; */
+    height: 2000px;
+}
+@keyframes rotateAnim {
+    0% {
+      opacity: 0;
+      transform: scale(0) rotate(-180deg);
+    }
+    30% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+    70% {
+      opacity: 1;
+      transform: scale(1) rotate(20deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.5) rotate(180deg);
+    }
+}
+
 .mm span:nth-child(1) {
     offset-distance: 0%;
+    animation-delay: 0;
 }
 .mm span:nth-child(2) {
     offset-distance: 5%;
+    animation-delay: 0.3s;
 }
 .mm span:nth-child(3) {
     offset-distance: 10%;
+    animation-delay: 0.6s;
 }
 .mm span:nth-child(4) {
     offset-distance: 15%;
+    animation-delay: 0.9s;
 }
 .mm span:nth-child(5) {
     offset-distance: 20%;
+    animation-delay: 1.2s;
 }
 .mm span:nth-child(6) {
     offset-distance: 25%;
+    animation-delay: 1.5s;
 }
 .mm span:nth-child(7) {
     offset-distance: 30%;
+    animation-delay: 1.8s;
 }
 .mm span:nth-child(8) {
     offset-distance: 35%;
+    animation-delay: 2.1s;
 }
 .mm span:nth-child(9) {
     offset-distance: 40%;
+    animation-delay: 2.4s;
 }
 .mm span:nth-child(10) {
     offset-distance: 45%;
+    animation-delay: 2.7s;
 }
 .mm span:nth-child(11) {
     offset-distance: 50%;
+    animation-delay: 3s;
 }
 .mm span:nth-child(12) {
     offset-distance: 55%;
+    animation-delay: 3.3s;
 }
 .mm span:nth-child(13) {
     offset-distance: 60%;
+    animation-delay: 3.6s;
 }
 .mm span:nth-child(14) {
     offset-distance: 65%;
+    animation-delay: 3.9s;
 }
 .mm span:nth-child(15) {
     offset-distance: 70%;
+    animation-delay: 4.2s;
 }
 .mm span:nth-child(16) {
     offset-distance: 75%;
+    animation-delay: 4.5s;
 }
 .mm span:nth-child(17) {
     offset-distance: 80%;
+    animation-delay: 4.8s;
 }
 .mm span:nth-child(18) {
     offset-distance: 85%;
+    animation-delay: 5.1s;
 }
 .mm span:nth-child(19) {
     offset-distance: 90%;
+    animation-delay: 5.4s;
 }
 .mm span:nth-child(20) {
     offset-distance: 95%;
+    animation-delay: 5.7s;
 }
 .nn {
     /* height: 527px;
